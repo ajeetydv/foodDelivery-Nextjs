@@ -40,3 +40,214 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/* Website css For Gloabl use */
+
+.mid-comp {
+    height: 90vh;
+    display: flex;
+}
+
+.mid-comp .container {
+    margin: auto;
+}
+
+.mid-comp .mn-hds {
+    margin-bottom: 4vw;
+}
+
+.mid-comp button.button-link {
+    border: none;
+    background: transparent;
+}
+
+.blackpart {
+    background: #dd1a32;
+    padding: 0.7vw 0;
+    text-align: center;
+        position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+body {
+    padding-top: 10vh;
+}
+
+.blackpart .fdbar-nav li  img {
+    width: 1.2vw;
+}
+
+.blackpart .fdbar-nav li {
+    display: inline-block;
+    margin: 0 10vh;
+}
+
+.blackpart .fdbar-nav {
+    margin: 0;
+   width: 100%;
+}
+
+.logo-left {
+    position: fixed;
+    top: 0;
+    left: 2vw;
+    z-index: 999;
+}
+
+.logo-left img {
+    width: 4vw;
+}
+
+.frnt-pgs img {
+    width: 100px;
+    width: 35vw;
+    position: absolute;
+    left: 2vw;
+    top: 7vw;
+}
+
+.frnt-pgs .rghts-itms {
+    left: inherit;
+    right: 4vh;
+    width: 18vw;
+}
+
+.strks{
+      -webkit-text-stroke-width: 0.1vw;
+    color: transparent;
+    -webkit-text-stroke-color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.frnt-pgs .strks{
+  font-size: 4vw;
+}
+
+.inp-err {
+    color: #dd1a32;
+}
+
+.mid-comp .form-group .inp-err{
+  text-align: left;
+  display: block;
+}
+
+
+.blackpart .fdbar-nav li.cart-mgs img {
+    width: 1.6vw;
+}
+
+.blackpart .fdbar-nav li.cart-mgs {
+    position: relative;
+}
+
+.blackpart .fdbar-nav li.cart-mgs span {
+    width: 1.4vw;
+    height: 1.4vw;
+    background: #000;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 0.8vw;
+    top: -0.5vw;
+    position: relative;
+    text-align: center;
+    line-height: 1.5vw;
+}
+
+.blackpart .fdbar-nav.cstm li {
+    margin: 0 5vh;
+}
+
+*:focus, *:active{
+  outline: none;
+}
+
+.main-serach .form-control {
+    border-radius: 0;
+    height: auto;
+    padding: 0.6vw;
+    font-size: 1.16vw;
+}
+
+.main-serach {
+    padding: 4vw;
+    position: relative;
+    z-index: 8;
+}
+
+.main-serach::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #dd1a3229;
+    left: 0;
+    z-index: -2;
+    filter: blur(19px);
+}
+
+
+.mid-comp.frnt-pgs {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.showrest-infos .crds-set {
+    background: #ffffffdb;
+    position: relative;
+    z-index: 8;
+    padding: 1vw;
+    margin-bottom: 1.4vw;
+}
+
+.showrest-infos .crds-set h2, .showrest-infos .crds-set h3, .showrest-infos .crds-set h2, .showrest-infos .crds-set p {
+    color: #000;
+}
+
+.showrest-infos .crds-set h2 {
+    font-weight: 700;
+    font-size: 2vw;
+    text-transform: capitalize;
+}
+
+.showrest-infos .crds-set h3, .showrest-infos .crds-set p {
+    font-size: 1.1vw;
+}
+
+.showrest-infos {
+    height: 59vh;
+    overflow-y: scroll;
+    display: block;
+    position: relative;
+    z-index: 7;
+    width: 77vw;
+    margin: auto;
+}
+
+ul.lc-lists {
+    position: absolute;
+    width: 13vw;
+    list-style: none;
+    background: #000000d9;
+    top: 3vw;
+}
+
+ul.lc-lists li {
+    padding: 0.5vw 0.5vw;
+    text-align: left;
+    border-bottom: 0.10vw dashed #fff;
+    font-size: 1.1vw;
+}
+
+.fooditmdetls img {
+    width: 100%;
+}
+
+.fooditmdetls {
+    padding: 0  0 2vw  0;
+}
